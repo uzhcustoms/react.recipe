@@ -1,38 +1,64 @@
 .App {
-  text-align: center;
+  padding: 10px 50px;
+  width: 60%;
+  margin: auto;
+  background-color: blanchedalmond;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.recipeName {
+  display: flex;
+  flex-direction: row;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.recipeName-item {
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  box-shadow: 0 0 5px rgb(160, 160, 160);
+  padding-bottom: 30px;
 }
 
-.App-link {
-  color: #61dafb;
+.recipeName-item .text {
+  padding: 20px;
+  text-align: center;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.recipeName-item .title {
+  font-size: 24px;
+  color:rgb(255, 96, 4);
+}
+
+
+h1 {
+  text-align: center;
+}
+
+.recipeIngred-item-block {
+  display: flex;
+  flex-direction: row;
+}
+
+.recipeCooking .title {
+  margin-top: 30px;
+}
+
+.recipeCooking-item-block {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-bottom: 10px;
+  border-bottom: 2px solid rgb(197, 197, 197);
+}
+
+.recipeCooking-item-block .a {
+  margin-right: 10px;
+}
+
+.recipeCooking-item-block img {
+  margin-right: 20px;
+  padding-bottom: 10px;
+}
+
+.recipeIngred-item-block {
+ height: 25px;
 }
